@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Detail View Controller-->
+        <scene sceneID="7bv-W7-Kmi">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="s6G-h9-Kg3" customClass="DetailViewController" customModule="PinterestStyle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bhp-Im-cDD"/>
+                        <viewControllerLayoutGuide type="bottom" id="cBo-K4-kDw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v2s-ei-dJO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z4T-L8-iZs"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cBo-K4-kDw" firstAttribute="top" secondItem="z4T-L8-iZs" secondAttribute="bottom" id="2Ss-Q2-rX4"/>
+                            <constraint firstItem="z4T-L8-iZs" firstAttribute="leading" secondItem="v2s-ei-dJO" secondAttribute="leading" id="ROc-PK-MDL"/>
+                            <constraint firstItem="z4T-L8-iZs" firstAttribute="top" secondItem="bhp-Im-cDD" secondAttribute="bottom" id="bvq-YC-3Gb"/>
+                            <constraint firstAttribute="trailing" secondItem="z4T-L8-iZs" secondAttribute="trailing" id="gqG-CN-1tA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="z4T-L8-iZs" id="Q8b-O3-19B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qjr-Pf-M6j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1207" y="-188"/>
+        </scene>
+    </scenes>
+</document>
