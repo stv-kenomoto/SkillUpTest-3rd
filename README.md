@@ -5,7 +5,7 @@
 * Swift3.0
 * Cocoapods1.1.1
 
-※ ライブラリもGit管理対象にしているため、「pod install」は不要です
+※ ライブラリもGitの管理対象にしているため、「pod install」は不要です
 
 ## ライブラリ
 * RxSwift3.0
