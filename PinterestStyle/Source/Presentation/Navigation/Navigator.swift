@@ -12,7 +12,7 @@ class Navigator {
 
     private static let detailStoryboardName = "Detail"
 
-    private static let detailStoryboardID = "DetailViewController"
+    private static let detailStoryboardID = "Detail"
 
     static func navigateToDetail(navigationController: UINavigationController, photoModel: PhotoModel?) {
         let viewController = UIStoryboard.getViewController(storyboardName: detailStoryboardName,
